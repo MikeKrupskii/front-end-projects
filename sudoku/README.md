@@ -18,7 +18,7 @@ npm run build
 
 This sudoku project was developed to demonstrate the knowledge and usage of Vue.js features. 
 
-The following is a breif description of the project outline: 
+The following is a brief description of the project outline: 
 - External Javascript library (the "sudokuJS.js" file) was imported to extract the needed methods and integrate them into the Vue.js functional environment. Credits for the library: [GitHub link can be found here] (https://github.com/pocketjoso/sudokuJS/blob/master/sudokuJS.js)
 - To get the most of the Vue.js features and reusability multiple comonents have been created: Header, Board
 - The algorithm implemented in the main component App.vue, calls the functions from the library and does the following: 
