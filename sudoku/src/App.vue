@@ -6,7 +6,7 @@
         <div class="menu-content">
           <h1>Sudoku Project</h1>
           <div class="image-div">
-            <a target="_blank" href="https://github.com/MikeKrupskii/sudoku">
+            <a target="_blank" href="https://github.com/MikeKrupskii/front-end-projects/tree/master/sudoku">
               <img src="./assets/gitimage.png"/>
             </a>
           </div>
