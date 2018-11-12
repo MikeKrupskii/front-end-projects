@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>sudoku1</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="/src/sudokuJS.js"></script>
+</head>
+<body>
+  <div id="app">
+  </div>
+  <script src="/dist/build.js"></script>
+  <!-- for testing uncomment this ==> <button type="button" class="js-solve-all-btn">All</button>  -->
+  <script>
+  // for testing uncomment this ==> var $solveAllBtn = $(".js-solve-all-btn"),
+   var mySudokuJS = $("#sudoku").sudokuJS({
+     difficulty: "easy",
+       boardFinishedFn: function(data){
+         alert("Congratulations! You have won! To start again please select the difficulty")
+     }
+   });
+  // for testing uncomment this ==> $solveAllBtn.on("click", mySudokuJS.solveAll);
+</script>
+</body>
+</html>
